@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class PurchasesService {
 
-    private Purchases purchases;
+    private final Purchases purchases;
 
     public PurchasesService(Purchases purchases) {
         this.purchases = purchases;
